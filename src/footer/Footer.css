@@ -1,0 +1,20 @@
+footer {
+    padding: 40px;
+    background-color: #FEA82F;
+}
+
+.alphabetBox {
+    text-align: center;
+
+}
+
+.alphabetBox a {
+    margin: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #02475E;
+}
+
+.alphabetBox a:hover {
+    color:#fff;
+}

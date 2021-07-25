@@ -1,0 +1,48 @@
+.modal {
+    position: absolute;
+    top: 9%;
+    right: 0;
+    width: 20%;
+    background-color: #FEA82F;
+    border: 3px solid #00ADB5;
+    border-radius: 15px;
+}
+
+.modalElement {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.modalElement > h4 {
+    color: #fff;
+    font-family: 'Lobster', "cursive";
+    font-size: 20px;
+    width: 25%;
+}
+
+.modalElement > h5 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.modalElement > img {
+    max-width: 70px;
+}
+
+.modal > button {
+    display: block;
+    margin: 20px auto;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FCECDD;
+    color: #00ADB5;
+    font-family: 'Lobster', "cursive";
+    font-size: 17px;
+}
+
+.modal > button:hover {
+    cursor: pointer;
+    box-shadow: 5px 7px 5px #FA9905;
+}

@@ -1,0 +1,27 @@
+.searchCocktailBox {
+display: flex;
+flex-wrap: wrap;
+padding-top: 20px;
+padding-bottom: 40px;    
+}
+
+.searchCocktailBox a {
+    max-width: 19%;
+    flex-grow: 1;
+    margin: 25px auto 5px;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid #00ADB5;
+    border-radius: 15px;
+    box-shadow: 4px 6px 20px #393E46;
+    text-decoration: none;
+    background-color: #FCECDD;
+    color: #00ADB5;
+    font-size: 20px;
+}
+
+.searchCocktail img {
+    border-radius: 10px;
+    width: 100%;
+}
+

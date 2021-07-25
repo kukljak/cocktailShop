@@ -1,0 +1,40 @@
+.selectCocktail {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background-color: #FCECDD;
+}
+
+.selectCocktail > h1 {
+    margin-top: 0;
+    padding-top: 25px;
+    text-align: center;
+    color: #FF8474;
+    font-family: 'Playfair Display', serif;
+}
+
+.selectCocktail > img {
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    border: 3px solid #00ADB5;
+    border-radius: 15px;
+    box-shadow: 4px 6px 20px #393E46;
+}
+
+.selectCocktail > button {
+    display: block;
+    margin: 60px auto 0;
+    border: none;
+    height: 50px;
+    width: 20%;
+    background-color: #FF6701;
+    border-radius: 15px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+.selectCocktail > button:hover {
+    box-shadow: 5px 5px 10px #FA9905;
+    cursor: pointer;
+}

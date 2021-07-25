@@ -1,0 +1,49 @@
+.mainPage button {
+    display: block;
+}
+
+.contentBox {
+    background-color: #FCECDD;
+    padding-bottom: 50px;
+}
+
+.contentBox > h1 {
+    margin-top: 0;
+    padding-top: 25px;
+    text-align: center;
+    color: #FF8474;
+    font-family: 'Playfair Display', serif;
+}
+
+.mainPage > h2 {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Lobster', "cursive";
+    color: #00ADB5;
+}
+
+.mainPage > img {
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    border: 3px solid #00ADB5;
+    border-radius: 15px;
+    box-shadow: 4px 6px 20px #393E46;
+}
+
+.mainPage > button {
+    margin: 60px auto 0;
+    border: none;
+    height: 50px;
+    width: 20%;
+    background-color: #FF6701;
+    border-radius: 15px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+.mainPage > button:hover {
+    box-shadow: 5px 5px 10px #FA9905;
+    cursor: pointer;
+}
